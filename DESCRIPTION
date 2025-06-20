@@ -1,0 +1,12 @@
+Package: PCT
+Type: Package
+Title: Percentage Table
+Version: 0.1.0
+Author: Zixiao Hu
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Produce a table with variables that need to calculate its percentage throughout whole dataset.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: tidyr, dplyr, sassy, forcats, tidyverse
