@@ -1,0 +1,5 @@
+library(devtools)
+devtools::install_github('hzixiao0717/PCT')
+library(PCT)
+rpt <- dm_table(final)
+write_report(rpt, file = "Demographic_Characterics.rtf", output_type = "RTF")
